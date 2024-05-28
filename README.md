@@ -73,3 +73,12 @@ ii. Model for Panel Data Structure:
   b. Long Short-Term Memory networks:
   
   c. Gradient Boosting Machines:
+
+# Evaluation metrics:
+Since we detect financially distressed companies as '0' and '1' otherwise, the True Negatives and False Positives will carry high impact on our expected outcome.
+i.e., Companies which are marked as Non-Bankrupt when they were actually going bankrupt and Companies which are actually going bankrupt and are marked bankrupt.
+
+So we chose Recall and Accuracy as our two evaluation metrics for the models.
+
+# Results
+![image](https://github.com/SumanthW/BankruptcyPrediction/assets/128551121/bca6c219-75dd-4cfe-abdb-67db4a64ea6a)
